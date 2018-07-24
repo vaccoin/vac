@@ -1,0 +1,11 @@
+/** @file 
+ *    @copyright defined in VAC/LICENSE.txt 
+ *
+ * \warning This file is machine generated. DO NOT EDIT.  See config.hpp.in for changes.
+ */
+
+namespace VACio { namespace client { namespace config {
+   constexpr char version_str[] = "${clVAC_BUILD_VERSION}";
+   constexpr char locale_path[] = "${LOCALEDIR}";
+   constexpr char locale_domain[] = "${LOCALEDOMAIN}";
+}}}

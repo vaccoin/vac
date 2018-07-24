@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <VAC/utilities/git_revision.hpp>
+
+#define VAC_GIT_REVISION_SHA "@VAC_GIT_REVISION_SHA@"
+#define VAC_GIT_REVISION_UNIX_TIMESTAMP @VAC_GIT_REVISION_UNIX_TIMESTAMP@
+#define VAC_GIT_REVISION_DESCRIPTION "@VAC_GIT_REVISION_DESCRIPTION@"
+
+namespace VACio { namespace utilities {
+
+const char* const git_revision_sha = VAC_GIT_REVISION_SHA;
+const uint32_t git_revision_unix_timestamp = VAC_GIT_REVISION_UNIX_TIMESTAMP;
+const char* const git_revision_description = VAC_GIT_REVISION_DESCRIPTION;
+
+} } // end namespace VACio::utilities

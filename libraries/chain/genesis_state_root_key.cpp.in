@@ -1,0 +1,12 @@
+/**
+ *  @file
+ *  @copyright defined in VAC/LICENSE.txt
+ */
+
+#include <VACio/chain/genesis_state.hpp>
+
+namespace VACio { namespace chain {
+
+const string genesis_state::VACio_root_key = "${VACIO_ROOT_KEY}";
+
+} } // namespace VACio::chain

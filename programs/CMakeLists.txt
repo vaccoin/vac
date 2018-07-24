@@ -1,0 +1,5 @@
+add_subdirectory( nodVAC )
+add_subdirectory( clVAC )
+add_subdirectory( kVACd )
+add_subdirectory( VACCOIN-launcher )
+add_subdirectory( VACCOIN-abigen )
